@@ -1,0 +1,34 @@
+<project name="web" basedir="." default="generate.war">
+  <property name="dist.web.name" value="equation-${ant.project.name}" />
+  <property name="dist.dir" value="dist" />
+  <property name="tomee.dir" value="C:/Users/Alex/Desktop/Scoala/JavaApp/apache-tomee-plume-7.0.4"/>
+  <path id="myclasspath">
+	<fileset dir="${tomee.dir}/lib">
+       <include name="*.jar"/>
+    </fileset>
+    <fileset dir="web/WEB-INF/lib">
+       <include name="*.jar"/>
+    </fileset>
+    <pathelement path="../equation-ejb/dist/equation-ejb.jar" />   
+  </path> 
+   
+  <target name="init">
+    <delete dir="${dist.dir}"/>
+    <delete dir="web/WEB-INF/classes"/>
+    <mkdir dir="web/WEB-INF/classes"/>
+    <delete dir="web/WEB-INF/lib"/>
+    <mkdir dir="web/WEB-INF/lib"/>
+    <mkdir dir="${dist.dir}" />
+  </target>
+  
+  <target name="compile" depends="init">
+    <javac classpathref="myclasspath"
+           includeantruntime="false"
+           srcdir="src" 
+           destdir="web/WEB-INF/classes" />             
+  </target>
+  
+  <target name="generate.war" depends="compile">
+    <jar destfile="${dist.dir}/${dist.web.name}.war" basedir="web" />
+  </target>
+</project>

@@ -9,12 +9,10 @@ import java.io.IOException;
 
 public class AppClient {
     public static void main(String[] args) {
-		System.out.println("Welcome");
-		Scanner scanner=new Scanner(System.in);
-		
-        System.out.print("n=");
-        int n=scanner.nextInt();
-		
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("n :");
+        int n = scanner.nextInt();
+        scanner.close();
         SocketChannel sc=null;
         try{
             InetSocketAddress isa=new InetSocketAddress(8000);

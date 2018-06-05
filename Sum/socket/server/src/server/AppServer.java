@@ -6,6 +6,7 @@ import java.nio.ByteBuffer;
 import java.nio.IntBuffer;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
+import java.util.stream.IntStream;
 
 public class AppServer {
     public static void main(String[] args) {
@@ -51,32 +52,12 @@ public class AppServer {
         }
 
     }
-	public static String func(int num)
-    {
-		String sir = "Sirul este:";
-		StringBuilder sb = new StringBuilder (String.valueOf (sir));
-		sb.append(num);
-		sb.append(",");	
-        int count = 0;
-        while(num!=1)
-        {
-            if(num%2==0)
-            {
-                num /= 2;	
-				sb.append(num);
-				sb.append(",");					
-            }
-            else
-            {
-                num = 3*num + 1;
-				sb.append(num);
-				sb.append(",");
-                count++;
-            }
-        }
-		sb.append(" [nr pasi =");
-		sb.append(count);
-		sb.append("]");
+
+    public static String func(int n) {
+        Integer sum = IntStream.range(1, n).filter(i -> i % 3 == 0 || i % 5 == 0).sum();
+        StringBuilder sb = new StringBuilder();
+        sb.append(sum);
         return sb.toString();
     }
+
 }

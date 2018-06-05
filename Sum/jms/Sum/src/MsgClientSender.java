@@ -14,7 +14,7 @@ public class MsgClientSender {
     this.clientName = clientName;
     Scanner scanner = new Scanner(System.in);
     System.out.println("Introduceti n :");
-    long n = scanner.nextLong();
+    int n = scanner.nextInt();
     String sn = Long.valueOf(n).toString();
     System.out.println("Introduceti 'Topic'-ul raspunsului");
     topicResult = scanner.next();

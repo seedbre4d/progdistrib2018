@@ -6,6 +6,7 @@ import javax.jms.Topic;
 import javax.jms.JMSContext;
 import javax.jms.JMSConsumer;
 import javax.jms.JMSProducer;
+import java.util.stream.IntStream;
 
 public class MsgSumServer {
 
@@ -30,7 +31,7 @@ public class MsgSumServer {
             TextMessage tm = (TextMessage) msg;
             String s = tm.getText();
             String[] ss = s.split(" ");
-            long n = Long.parseLong(ss[0]);
+            int n = Integer.parseInt(ss[0]);
             String topic = ss[1];
             String c = sum(n);
             Topic t1 = new com.sun.messaging.Topic(topic);
@@ -45,27 +46,12 @@ public class MsgSumServer {
     }
   }
 
-  private String sum(long num) {
-    String sir = "Sirul este:";
-    StringBuilder sb = new StringBuilder(String.valueOf(sir));
-    sb.append(num);
-    sb.append(",");
-    int count = 0;
-    while (num != 1) {
-      if (num % 2 == 0) {
-        num /= 2;
-        sb.append(num);
-        sb.append(",");
-      } else {
-        num = 3 * num + 1;
-        sb.append(num);
-        sb.append(",");
-        count++;
-      }
-    }
-    sb.append(" [nr pasi =");
-    sb.append(count);
-    sb.append("]");
+  public String sum(int n) {
+    Integer sum = IntStream.range(1, n)
+            .filter(i -> i % 3 == 0 || i % 5 == 0)
+            .sum();
+    StringBuilder sb = new StringBuilder();
+    sb.append(sum);
     return sb.toString();
-  }
+  }   
 }

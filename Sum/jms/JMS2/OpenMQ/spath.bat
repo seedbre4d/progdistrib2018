@@ -1,1 +1,1 @@
-set PATH=C:\Users\Alex\Desktop\Scoala\JavaApp\MessageQueue5.1\mq\bin;%PATH%
+set PATH=E:\PD\Repo\progdistrib2018\JavaApp\MessageQueue5.1\mq\bin;%PATH%

@@ -1,2 +1,2 @@
-set MQ_HOME=C:\Users\Alex\Desktop\Scoala\JavaApp\MessageQueue5.1\mq
+set MQ_HOME=E:\PD\Repo\progdistrib2018\JavaApp\MessageQueue5.1\mq
 %MQ_HOME%\bin\imqbrokerd

@@ -16,3 +16,1481 @@
 05-Jun-2018 21:23:34.092 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
 05-Jun-2018 21:23:34.092 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
 05-Jun-2018 21:23:34.092 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@21680803')
+05-Jun-2018 21:25:46.571 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Jun-2018 21:25:46.571 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Jun-2018 21:25:51.010 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Jun-2018 21:25:51.010 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Jun-2018 21:25:51.010 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3caa4757')
+05-Jun-2018 21:28:57.211 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Jun-2018 21:28:57.211 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Jun-2018 21:29:06.050 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Jun-2018 21:29:06.050 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Jun-2018 21:29:06.052 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1d572e62')
+05-Jun-2018 21:32:04.227 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Jun-2018 21:32:04.227 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Jun-2018 21:32:14.096 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Jun-2018 21:32:14.096 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Jun-2018 21:32:14.099 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@547e29a4')
+05-Jun-2018 21:32:19.838 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sumfile] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [10] in the jsp file: [/sumFile.jsp]
+Syntax error on token "String", @ expected
+7:     import java.util.stream.IntStream;
+8: 	  
+9: 
+10:     public String solve(int n) {
+11:       Integer sum = IntStream.range(1, n)
+12:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+13:           .sum();
+
+
+An error occurred at line: [10] in the jsp file: [/sumFile.jsp]
+Syntax error on token "int", delete this token
+7:     import java.util.stream.IntStream;
+8: 	  
+9: 
+10:     public String solve(int n) {
+11:       Integer sum = IntStream.range(1, n)
+12:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+13:           .sum();
+
+
+An error occurred at line: [10] in the jsp file: [/sumFile.jsp]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+7:     import java.util.stream.IntStream;
+8: 	  
+9: 
+10:     public String solve(int n) {
+11:       Integer sum = IntStream.range(1, n)
+12:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+13:           .sum();
+
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "JspFactory", ( expected after this token
+
+An error occurred at line: [33] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete NormalAnnotation
+
+An error occurred at line: [33] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [33] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [35] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "static", @ expected after this token
+
+An error occurred at line: [35] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", . expected
+
+An error occurred at line: [35] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token ",", ( expected
+
+An error occurred at line: [35] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [35] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [35] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [37] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [37] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", ( expected
+
+An error occurred at line: [37] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [37] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [37] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [39] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [39] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", ( expected
+
+An error occurred at line: [39] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [39] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [39] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [41] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [49] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "volatile", @ expected after this token
+
+An error occurred at line: [49] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [49] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [50] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "volatile", @ expected after this token
+
+An error occurred at line: [50] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [52] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", . expected
+
+An error occurred at line: [52] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token ",", ( expected
+
+An error occurred at line: [52] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [52] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [54] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "}", ; expected
+
+An error occurred at line: [43] in the jsp file: [/sumFile.jsp]
+The method solve(int) in the type sumFile_jsp is not applicable for the arguments (long)
+40:        if(sn==null) sn="1";
+41: 	   System.out.println("n="+sn);  
+42:        long numberN=Long.parseLong(sn.trim());
+43:        out.println(solve(numberN));   
+44:     %>
+45: </body>
+46: 
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [10] in the jsp file: [/sumFile.jsp]
+Syntax error on token "String", @ expected
+7:     import java.util.stream.IntStream;
+8: 	  
+9: 
+10:     public String solve(int n) {
+11:       Integer sum = IntStream.range(1, n)
+12:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+13:           .sum();
+
+
+An error occurred at line: [10] in the jsp file: [/sumFile.jsp]
+Syntax error on token "int", delete this token
+7:     import java.util.stream.IntStream;
+8: 	  
+9: 
+10:     public String solve(int n) {
+11:       Integer sum = IntStream.range(1, n)
+12:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+13:           .sum();
+
+
+An error occurred at line: [10] in the jsp file: [/sumFile.jsp]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+7:     import java.util.stream.IntStream;
+8: 	  
+9: 
+10:     public String solve(int n) {
+11:       Integer sum = IntStream.range(1, n)
+12:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+13:           .sum();
+
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "JspFactory", ( expected after this token
+
+An error occurred at line: [33] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete NormalAnnotation
+
+An error occurred at line: [33] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [33] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [35] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "static", @ expected after this token
+
+An error occurred at line: [35] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", . expected
+
+An error occurred at line: [35] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token ",", ( expected
+
+An error occurred at line: [35] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [35] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [35] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [37] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [37] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", ( expected
+
+An error occurred at line: [37] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [37] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [37] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [39] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [39] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", ( expected
+
+An error occurred at line: [39] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [39] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [39] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [41] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [49] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "volatile", @ expected after this token
+
+An error occurred at line: [49] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [49] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [50] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "volatile", @ expected after this token
+
+An error occurred at line: [50] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [52] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", . expected
+
+An error occurred at line: [52] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token ",", ( expected
+
+An error occurred at line: [52] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [52] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [54] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "}", ; expected
+
+An error occurred at line: [43] in the jsp file: [/sumFile.jsp]
+The method solve(int) in the type sumFile_jsp is not applicable for the arguments (long)
+40:        if(sn==null) sn="1";
+41: 	   System.out.println("n="+sn);  
+42:        long numberN=Long.parseLong(sn.trim());
+43:        out.println(solve(numberN));   
+44:     %>
+45: </body>
+46: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:473)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:412)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1385)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+05-Jun-2018 21:34:09.441 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Jun-2018 21:34:09.441 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Jun-2018 21:34:36.271 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Jun-2018 21:34:36.271 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Jun-2018 21:34:36.271 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@344561e0')
+05-Jun-2018 21:34:41.194 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sumfile] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [9] in the jsp file: [/sumFile.jsp]
+Syntax error on token "String", @ expected
+6:   <%!
+7:     import java.util.stream.IntStream;
+8: 	  
+9:     public String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+
+
+An error occurred at line: [9] in the jsp file: [/sumFile.jsp]
+Syntax error on token "int", delete this token
+6:   <%!
+7:     import java.util.stream.IntStream;
+8: 	  
+9:     public String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+
+
+An error occurred at line: [9] in the jsp file: [/sumFile.jsp]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+6:   <%!
+7:     import java.util.stream.IntStream;
+8: 	  
+9:     public String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+
+
+An error occurred at line: [31] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [31] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "JspFactory", ( expected after this token
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete NormalAnnotation
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "static", @ expected after this token
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", . expected
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token ",", ( expected
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", ( expected
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", ( expected
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [40] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [48] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "volatile", @ expected after this token
+
+An error occurred at line: [48] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [48] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [49] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "volatile", @ expected after this token
+
+An error occurred at line: [49] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", . expected
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token ",", ( expected
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [53] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "}", ; expected
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [9] in the jsp file: [/sumFile.jsp]
+Syntax error on token "String", @ expected
+6:   <%!
+7:     import java.util.stream.IntStream;
+8: 	  
+9:     public String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+
+
+An error occurred at line: [9] in the jsp file: [/sumFile.jsp]
+Syntax error on token "int", delete this token
+6:   <%!
+7:     import java.util.stream.IntStream;
+8: 	  
+9:     public String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+
+
+An error occurred at line: [9] in the jsp file: [/sumFile.jsp]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+6:   <%!
+7:     import java.util.stream.IntStream;
+8: 	  
+9:     public String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+
+
+An error occurred at line: [31] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [31] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "JspFactory", ( expected after this token
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete NormalAnnotation
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "static", @ expected after this token
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", . expected
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token ",", ( expected
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", ( expected
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", ( expected
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [40] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [48] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "volatile", @ expected after this token
+
+An error occurred at line: [48] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [48] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [49] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "volatile", @ expected after this token
+
+An error occurred at line: [49] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", . expected
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token ",", ( expected
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [53] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "}", ; expected
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:473)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:412)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1385)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+05-Jun-2018 21:34:57.144 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Jun-2018 21:34:57.144 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Jun-2018 21:35:02.836 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Jun-2018 21:35:02.836 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Jun-2018 21:35:02.842 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3dddbe65')
+05-Jun-2018 21:35:05.528 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sumfile] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [9] in the jsp file: [/sumFile.jsp]
+Syntax error on token "String", @ expected
+6:   <%!
+7:     import java.util.stream.IntStream;
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+
+
+An error occurred at line: [9] in the jsp file: [/sumFile.jsp]
+Syntax error on token "int", delete this token
+6:   <%!
+7:     import java.util.stream.IntStream;
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+
+
+An error occurred at line: [9] in the jsp file: [/sumFile.jsp]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+6:   <%!
+7:     import java.util.stream.IntStream;
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+
+
+An error occurred at line: [31] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [31] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "JspFactory", ( expected after this token
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete NormalAnnotation
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "static", @ expected after this token
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", . expected
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token ",", ( expected
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", ( expected
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", ( expected
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [40] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [48] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "volatile", @ expected after this token
+
+An error occurred at line: [48] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [48] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [49] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "volatile", @ expected after this token
+
+An error occurred at line: [49] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", . expected
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token ",", ( expected
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [53] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "}", ; expected
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [9] in the jsp file: [/sumFile.jsp]
+Syntax error on token "String", @ expected
+6:   <%!
+7:     import java.util.stream.IntStream;
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+
+
+An error occurred at line: [9] in the jsp file: [/sumFile.jsp]
+Syntax error on token "int", delete this token
+6:   <%!
+7:     import java.util.stream.IntStream;
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+
+
+An error occurred at line: [9] in the jsp file: [/sumFile.jsp]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+6:   <%!
+7:     import java.util.stream.IntStream;
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+
+
+An error occurred at line: [31] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [31] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "JspFactory", ( expected after this token
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete NormalAnnotation
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "static", @ expected after this token
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", . expected
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token ",", ( expected
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", ( expected
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", ( expected
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [40] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [48] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "volatile", @ expected after this token
+
+An error occurred at line: [48] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [48] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [49] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "volatile", @ expected after this token
+
+An error occurred at line: [49] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", . expected
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token ",", ( expected
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [53] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "}", ; expected
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:473)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:412)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1385)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+05-Jun-2018 21:35:37.862 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Jun-2018 21:35:37.862 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Jun-2018 21:35:44.151 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Jun-2018 21:35:44.151 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Jun-2018 21:35:44.156 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@29539e36')
+05-Jun-2018 21:36:04.322 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Jun-2018 21:36:04.322 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Jun-2018 21:36:52.531 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Jun-2018 21:36:52.531 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Jun-2018 21:36:52.531 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@f5c79a6')
+05-Jun-2018 21:36:58.102 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sumfile] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [9] in the jsp file: [/sumFile.jsp]
+Syntax error on token "String", @ expected
+6:   <%!
+7:     @import java.util.stream.IntStream;
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+
+
+An error occurred at line: [9] in the jsp file: [/sumFile.jsp]
+Syntax error on token "int", delete this token
+6:   <%!
+7:     @import java.util.stream.IntStream;
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+
+
+An error occurred at line: [9] in the jsp file: [/sumFile.jsp]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+6:   <%!
+7:     @import java.util.stream.IntStream;
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+
+
+An error occurred at line: [31] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [31] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "JspFactory", ( expected after this token
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete NormalAnnotation
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "static", @ expected after this token
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", . expected
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token ",", ( expected
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", ( expected
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", ( expected
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [40] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [48] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "volatile", @ expected after this token
+
+An error occurred at line: [48] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [48] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [49] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "volatile", @ expected after this token
+
+An error occurred at line: [49] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", . expected
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token ",", ( expected
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [53] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "}", ; expected
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token(s), misplaced construct(s)
+
+An error occurred at line: [9] in the jsp file: [/sumFile.jsp]
+Syntax error on token "String", @ expected
+6:   <%!
+7:     @import java.util.stream.IntStream;
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+
+
+An error occurred at line: [9] in the jsp file: [/sumFile.jsp]
+Syntax error on token "int", delete this token
+6:   <%!
+7:     @import java.util.stream.IntStream;
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+
+
+An error occurred at line: [9] in the jsp file: [/sumFile.jsp]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+6:   <%!
+7:     @import java.util.stream.IntStream;
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+
+
+An error occurred at line: [31] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [31] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "JspFactory", ( expected after this token
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete NormalAnnotation
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [32] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "static", @ expected after this token
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", . expected
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token ",", ( expected
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [34] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", ( expected
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [36] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "final", @ expected after this token
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", ( expected
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [38] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [40] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [48] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "volatile", @ expected after this token
+
+An error occurred at line: [48] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeaderName
+
+An error occurred at line: [48] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+An error occurred at line: [49] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "volatile", @ expected after this token
+
+An error occurred at line: [49] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on tokens, delete these tokens
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "<", . expected
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token ",", ( expected
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert ")" to complete SingleMemberAnnotation
+
+An error occurred at line: [51] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error, insert "enum Identifier" to complete EnumHeader
+
+An error occurred at line: [53] in the generated java file: [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomcat-9.0.8\work\Catalina\localhost\sumfile\org\apache\jsp\sumFile_jsp.java]
+Syntax error on token "}", ; expected
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:473)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:412)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1385)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+05-Jun-2018 21:37:26.088 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Jun-2018 21:37:26.089 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Jun-2018 21:37:36.461 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Jun-2018 21:37:36.461 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Jun-2018 21:37:36.461 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@cc62a3b')
+05-Jun-2018 21:37:41.602 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sumfile] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [7] in the jsp file: [/sumFile.jsp]
+page cannot be resolved to a type
+4: <body>
+5:   <H1> Sum </H1>
+6:   <%!
+7:     @ page import="java.util.stream.IntStream"
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+
+
+An error occurred at line: [7] in the jsp file: [/sumFile.jsp]
+Syntax error on tokens, delete these tokens
+4: <body>
+5:   <H1> Sum </H1>
+6:   <%!
+7:     @ page import="java.util.stream.IntStream"
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+
+
+An error occurred at line: [10] in the jsp file: [/sumFile.jsp]
+IntStream cannot be resolved
+7:     @ page import="java.util.stream.IntStream"
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+13:       StringBuilder sb = new StringBuilder();
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [7] in the jsp file: [/sumFile.jsp]
+page cannot be resolved to a type
+4: <body>
+5:   <H1> Sum </H1>
+6:   <%!
+7:     @ page import="java.util.stream.IntStream"
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+
+
+An error occurred at line: [7] in the jsp file: [/sumFile.jsp]
+Syntax error on tokens, delete these tokens
+4: <body>
+5:   <H1> Sum </H1>
+6:   <%!
+7:     @ page import="java.util.stream.IntStream"
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+
+
+An error occurred at line: [10] in the jsp file: [/sumFile.jsp]
+IntStream cannot be resolved
+7:     @ page import="java.util.stream.IntStream"
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+13:       StringBuilder sb = new StringBuilder();
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:473)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:412)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1385)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+05-Jun-2018 21:37:59.791 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Jun-2018 21:37:59.791 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Jun-2018 21:38:05.975 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Jun-2018 21:38:05.975 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Jun-2018 21:38:05.977 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@669253b7')
+05-Jun-2018 21:38:09.596 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/sumfile] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [7] in the jsp file: [/sumFile.jsp]
+Syntax error on tokens, delete these tokens
+4: <body>
+5:   <H1> Sum </H1>
+6:   <%!
+7:     @ import="java.util.stream.IntStream"
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+
+
+An error occurred at line: [10] in the jsp file: [/sumFile.jsp]
+IntStream cannot be resolved
+7:     @ import="java.util.stream.IntStream"
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+13:       StringBuilder sb = new StringBuilder();
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [7] in the jsp file: [/sumFile.jsp]
+Syntax error on tokens, delete these tokens
+4: <body>
+5:   <H1> Sum </H1>
+6:   <%!
+7:     @ import="java.util.stream.IntStream"
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+
+
+An error occurred at line: [10] in the jsp file: [/sumFile.jsp]
+IntStream cannot be resolved
+7:     @ import="java.util.stream.IntStream"
+8: 	  
+9:     String solve(int n) {
+10:       Integer sum = IntStream.range(1, n)
+11:           .filter(i -> i % 3 == 0 || i % 5 == 0)
+12:           .sum();
+13:       StringBuilder sb = new StringBuilder();
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:473)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:412)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1385)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+05-Jun-2018 21:39:05.298 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+05-Jun-2018 21:39:05.298 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Jun-2018 21:39:11.985 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Jun-2018 21:39:11.985 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Jun-2018 21:39:11.985 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@cc62a3b')

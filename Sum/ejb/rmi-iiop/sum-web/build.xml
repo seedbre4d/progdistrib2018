@@ -1,7 +1,7 @@
 <project name="web" basedir="." default="generate.war">
   <property name="dist.web.name" value="sum-${ant.project.name}" />
   <property name="dist.dir" value="dist" />
-  <property name="tomee.dir" value="C:/Users/Alex/Desktop/Scoala/JavaApp/apache-tomee-plume-7.0.4"/>
+  <property name="tomee.dir" value="E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4"/>
   <path id="myclasspath">
 	<fileset dir="${tomee.dir}/lib">
        <include name="*.jar"/>

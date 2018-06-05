@@ -1,6 +1,6 @@
 <project basedir="." default="generate.war">
 
-  <property name="CATALINA_HOME" value="C:/Users/Alex/Desktop/Scoala/JavaApp/apache-tomee-plume-7.0.4"/> 
+  <property name="CATALINA_HOME" value="E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4"/> 
   <property name="dist.name" value="sum-ejb" />
   <property name="dist.dir" value="dist" />
  

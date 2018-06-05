@@ -1,5 +1,5 @@
 <project name="sum" basedir="." default="generate.ear">
-  <property name="jee.home" location="C:/Users/Alex/Desktop/Scoala/JavaApp/apache-tomee-plume-7.0.4"/>
+  <property name="jee.home" location="E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4"/>
   <property name="dist.name" value="${ant.project.name}-ear" />
   <property name="dist.dir" value="dist" />
   <property name="build.dir" value="build"/>

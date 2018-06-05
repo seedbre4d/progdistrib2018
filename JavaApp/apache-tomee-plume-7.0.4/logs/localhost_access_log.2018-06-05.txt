@@ -112,3 +112,5 @@
 0:0:0:0:0:0:0:1 - - [05/Jun/2018:20:58:39 +0300] "GET /sum-ejb/sum?n=4&tip=text%2Fhtml HTTP/1.1" 200 102
 0:0:0:0:0:0:0:1 - - [05/Jun/2018:20:58:45 +0300] "GET /sum-ejb/sum?n=16&tip=text%2Fhtml HTTP/1.1" 200 103
 0:0:0:0:0:0:0:1 - - [05/Jun/2018:20:58:50 +0300] "GET /sum-ejb/sum?n=6&tip=text%2Fhtml HTTP/1.1" 200 102
+127.0.0.1 - - [05/Jun/2018:22:54:02 +0300] "POST /tomee/ejb HTTP/1.1" 200 177
+127.0.0.1 - - [05/Jun/2018:22:54:04 +0300] "POST /tomee/ejb HTTP/1.1" 200 85

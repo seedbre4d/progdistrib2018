@@ -6143,3 +6143,260 @@ Caused by: java.net.BindException: Address already in use: NET_Bind
 05-Jun-2018 20:59:06.898 INFO [116] org.apache.openejb.resource.activemq.ActiveMQResourceAdapter.stopImpl Stopped ActiveMQ broker
 05-Jun-2018 20:59:06.898 INFO [Thread-28] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
 05-Jun-2018 20:59:06.898 INFO [Thread-28] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2018 22:53:44.957 INFO [main] org.apache.openejb.persistence.PersistenceBootstrap.getDefaultProvider Default JPA Provider changed to org.eclipse.persistence.jpa.PersistenceProvider specified by jar:file:/E:/PD/Repo/progdistrib2018/JavaApp/apache-tomee-plume-7.0.4/lib/openejb-core-eclipselink-7.0.4.jar!/META-INF/org.apache.openejb.persistence.PersistenceBootstrap.provider
+05-Jun-2018 22:53:45.298 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version:        Apache Tomcat (TomEE)/8.5.20 (7.0.4)
+05-Jun-2018 22:53:45.298 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Aug 2 2017 21:35:49 UTC
+05-Jun-2018 22:53:45.298 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server number:         8.5.20.0
+05-Jun-2018 22:53:45.299 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 10
+05-Jun-2018 22:53:45.299 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            10.0
+05-Jun-2018 22:53:45.299 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+05-Jun-2018 22:53:45.299 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             c:\Program Files\Java\jre1.8.0_172
+05-Jun-2018 22:53:45.299 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.8.0_172-b11
+05-Jun-2018 22:53:45.299 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+05-Jun-2018 22:53:45.299 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4
+05-Jun-2018 22:53:45.299 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4
+05-Jun-2018 22:53:45.299 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\conf\logging.properties
+05-Jun-2018 22:53:45.299 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jun-2018 22:53:45.299 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -javaagent:E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\lib\openejb-javaagent.jar
+05-Jun-2018 22:53:45.299 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jun-2018 22:53:45.300 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jun-2018 22:53:45.300 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4
+05-Jun-2018 22:53:45.301 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4
+05-Jun-2018 22:53:45.301 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\temp
+05-Jun-2018 22:53:45.301 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jre1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Users\seedbr4d\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\seedbr4d\AppData\Roaming\npm;C:\Users\seedbr4d\AppData\Local\Yarn\bin;C:\Program Files\Java\jdk-10.0.1\bin;.]
+05-Jun-2018 22:53:45.445 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+05-Jun-2018 22:53:45.565 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+05-Jun-2018 22:53:45.567 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2018 22:53:45.569 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+05-Jun-2018 22:53:45.731 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.remote.support=true'
+05-Jun-2018 22:53:45.742 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+05-Jun-2018 22:53:45.764 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.environment.default=true'
+05-Jun-2018 22:53:45.779 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deploymentId.format={appId}/{ejbJarId}/{ejbName}'
+05-Jun-2018 22:53:45.821 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+05-Jun-2018 22:53:45.822 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+05-Jun-2018 22:53:45.822 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Tue Jun 05 22:53:45 EEST 2018
+05-Jun-2018 22:53:45.822 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2017 (C) Apache OpenEJB Project, All Rights Reserved.
+05-Jun-2018 22:53:45.822 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 7.0.4
+05-Jun-2018 22:53:45.822 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20170926
+05-Jun-2018 22:53:45.822 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 12:10
+05-Jun-2018 22:53:45.822 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+05-Jun-2018 22:53:45.822 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4
+05-Jun-2018 22:53:45.822 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4
+05-Jun-2018 22:53:45.824 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@48aaecc3
+05-Jun-2018 22:53:45.825 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+05-Jun-2018 22:53:45.854 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.environment.default=true'
+05-Jun-2018 22:53:45.854 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deploymentId.format={appId}/{ejbJarId}/{ejbName}'
+05-Jun-2018 22:53:45.857 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\conf\tomee.xml'
+05-Jun-2018 22:53:45.889 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+05-Jun-2018 22:53:45.890 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+05-Jun-2018 22:53:45.905 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracting jar: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\apps\sum-ear.ear
+05-Jun-2018 22:53:45.972 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracted path: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\apps\sum-ear
+05-Jun-2018 22:53:45.997 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracting jar: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\apps\sum-ear\sum-web.war
+05-Jun-2018 22:53:46.115 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracted path: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\apps\sum-ear\sum-web
+05-Jun-2018 22:53:46.147 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath.filter.systemapps=false'
+05-Jun-2018 22:53:46.157 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.default.deployment-module=org.apache.openejb.config.WebModule'
+05-Jun-2018 22:53:46.165 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.default.deployment-module=org.apache.openejb.config.WebModule'
+05-Jun-2018 22:53:46.169 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.default.deployment-module=org.apache.openejb.config.WebModule'
+05-Jun-2018 22:53:46.171 INFO [main] org.apache.openejb.config.DeploymentsResolver.processUrls Found EjbModule in classpath: e:\pd\repo\progdistrib2018\javaapp\apache-tomee-plume-7.0.4\apps\sum-ear\sum-ejb.jar
+05-Jun-2018 22:53:46.176 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\apps\sum-ear
+05-Jun-2018 22:53:46.265 INFO [main] org.apache.openejb.config.InitEjbDeployments.deploy Auto-deploying ejb SumBean: EjbDeployment(deployment-id=sum-ear/sum-ejb/SumBean)
+05-Jun-2018 22:53:46.268 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+05-Jun-2018 22:53:46.268 INFO [main] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean sum-ear/sum-ejb/SumBean: Container(type=STATELESS, id=Default Stateless Container)
+05-Jun-2018 22:53:46.269 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+05-Jun-2018 22:53:46.269 INFO [main] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean sum-ear/sum-web/sum-web.Comp1876682596: Container(type=MANAGED, id=Default Managed Container)
+05-Jun-2018 22:53:46.270 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=comp/DefaultManagedExecutorService, type=Resource, provider-id=Default Executor Service)
+05-Jun-2018 22:53:46.270 INFO [main] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'comp/DefaultManagedExecutorService' of type 'javax.enterprise.concurrent.ManagedExecutorService for 'sum-ear/sum-web/sum-web.Comp1876682596'.
+05-Jun-2018 22:53:46.270 INFO [main] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultManagedExecutorService' in bean sum-ear/sum-web/sum-web.Comp1876682596 to Resource(id=comp/DefaultManagedExecutorService)
+05-Jun-2018 22:53:46.272 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=comp/DefaultManagedScheduledExecutorService, type=Resource, provider-id=Default Scheduled Executor Service)
+05-Jun-2018 22:53:46.272 INFO [main] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'comp/DefaultManagedScheduledExecutorService' of type 'javax.enterprise.concurrent.ManagedScheduledExecutorService for 'sum-ear/sum-web/sum-web.Comp1876682596'.
+05-Jun-2018 22:53:46.272 INFO [main] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultManagedScheduledExecutorService' in bean sum-ear/sum-web/sum-web.Comp1876682596 to Resource(id=comp/DefaultManagedScheduledExecutorService)
+05-Jun-2018 22:53:46.273 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=comp/DefaultManagedThreadFactory, type=Resource, provider-id=Default Managed Thread Factory)
+05-Jun-2018 22:53:46.273 INFO [main] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'comp/DefaultManagedThreadFactory' of type 'javax.enterprise.concurrent.ManagedThreadFactory for 'sum-ear/sum-web/sum-web.Comp1876682596'.
+05-Jun-2018 22:53:46.273 INFO [main] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultManagedThreadFactory' in bean sum-ear/sum-web/sum-web.Comp1876682596 to Resource(id=comp/DefaultManagedThreadFactory)
+05-Jun-2018 22:53:46.273 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=comp/DefaultContextService, type=Resource, provider-id=Default Context Service)
+05-Jun-2018 22:53:46.273 INFO [main] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'comp/DefaultContextService' of type 'javax.enterprise.concurrent.ContextService for 'sum-ear/sum-web/sum-web.Comp1876682596'.
+05-Jun-2018 22:53:46.274 INFO [main] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultContextService' in bean sum-ear/sum-web/sum-web.Comp1876682596 to Resource(id=comp/DefaultContextService)
+05-Jun-2018 22:53:46.274 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=comp/DefaultJMSConnectionFactory, type=Resource, provider-id=Default JMS Connection Factory)
+05-Jun-2018 22:53:46.274 INFO [main] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'comp/DefaultJMSConnectionFactory' of type 'javax.jms.ConnectionFactory for 'sum-ear/sum-web/sum-web.Comp1876682596'.
+05-Jun-2018 22:53:46.276 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default JMS Resource Adapter, type=Resource, provider-id=Default JMS Resource Adapter)
+05-Jun-2018 22:53:46.277 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Unmanaged JDBC Database, type=Resource, provider-id=Default Unmanaged JDBC Database)
+05-Jun-2018 22:53:46.277 INFO [main] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultJMSConnectionFactory' in bean sum-ear/sum-web/sum-web.Comp1876682596 to Resource(id=comp/DefaultJMSConnectionFactory)
+05-Jun-2018 22:53:46.295 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\apps\sum-ear" loaded.
+05-Jun-2018 22:53:46.295 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.system.apps=true'
+05-Jun-2018 22:53:46.297 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Singleton Container, type=Container, provider-id=Default Singleton Container)
+05-Jun-2018 22:53:46.301 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+05-Jun-2018 22:53:46.348 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+05-Jun-2018 22:53:46.373 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=comp/DefaultContextService)
+05-Jun-2018 22:53:46.376 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=Default Unmanaged JDBC Database)
+05-Jun-2018 22:53:46.755 INFO [main] org.hsqldb.persist.Logger.logInfoEvent checkpointClose start
+05-Jun-2018 22:53:46.783 INFO [main] org.hsqldb.persist.Logger.logInfoEvent checkpointClose end
+05-Jun-2018 22:53:46.800 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=Default JMS Resource Adapter)
+05-Jun-2018 22:53:46.817 INFO [main] org.apache.openejb.assembler.classic.Assembler.doCreateResource Thread pool size for 'Default JMS Resource Adapter' is (30)
+05-Jun-2018 22:53:46.831 INFO [main] org.apache.openejb.resource.activemq.ActiveMQ5Factory.createBroker ActiveMQ5Factory creating broker
+05-Jun-2018 22:53:47.040 INFO [main] org.apache.activemq.broker.BrokerService.<clinit> Loaded the Bouncy Castle security provider.
+05-Jun-2018 22:53:47.086 INFO [main] org.apache.openejb.resource.activemq.ActiveMQ5Factory.createBroker Using ActiveMQ startup timeout of 10000ms
+05-Jun-2018 22:53:47.087 INFO [ActiveMQFactory start and checkpoint] org.apache.openejb.resource.activemq.ActiveMQ5Factory$1.run Starting ActiveMQ BrokerService
+05-Jun-2018 22:53:47.098 INFO [ActiveMQFactory start and checkpoint] org.apache.activemq.broker.BrokerService.doStartPersistenceAdapter Using Persistence Adapter: MemoryPersistenceAdapter
+05-Jun-2018 22:53:47.238 INFO [ActiveMQFactory start and checkpoint] org.apache.activemq.broker.BrokerService.doStartBroker Apache ActiveMQ 5.14.5 (localhost, ID:DESKTOP-GQDSVS3-53527-1528228427114-0:1) is starting
+05-Jun-2018 22:53:47.244 INFO [ActiveMQFactory start and checkpoint] org.apache.activemq.transport.TransportServerThreadSupport.doStart Listening for connections at: tcp://127.0.0.1:61616
+05-Jun-2018 22:53:47.244 INFO [ActiveMQFactory start and checkpoint] org.apache.activemq.broker.TransportConnector.start Connector tcp://127.0.0.1:61616 started
+05-Jun-2018 22:53:47.245 INFO [ActiveMQFactory start and checkpoint] org.apache.activemq.broker.BrokerService.doStartBroker Apache ActiveMQ 5.14.5 (localhost, ID:DESKTOP-GQDSVS3-53527-1528228427114-0:1) started
+05-Jun-2018 22:53:47.245 INFO [ActiveMQFactory start and checkpoint] org.apache.activemq.broker.BrokerService.doStartBroker For help or more information please see: http://activemq.apache.org
+05-Jun-2018 22:53:47.248 WARNING [ActiveMQFactory start and checkpoint] org.apache.activemq.broker.BrokerService.checkUsageLimit Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\WINDOWS\system32 only has 11095 mb of usable space. - resetting to maximum available disk space: 11095 mb
+05-Jun-2018 22:53:47.264 INFO [56] org.apache.openejb.resource.activemq.ActiveMQ5Factory$1.run Starting ActiveMQ checkpoint
+05-Jun-2018 22:53:47.264 INFO [main] org.apache.openejb.resource.activemq.ActiveMQ5Factory.createBroker ActiveMQ broker started
+05-Jun-2018 22:53:47.266 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=comp/DefaultJMSConnectionFactory)
+05-Jun-2018 22:53:47.270 INFO [main] org.apache.openejb.assembler.classic.Assembler.doCreateResource Creating ConnectionManager for Resource(id=comp/DefaultJMSConnectionFactory)
+05-Jun-2018 22:53:47.278 INFO [main] org.apache.geronimo.connector.outbound.GenericConnectionManager$InterceptorsImpl.<init> No runtime TransactionSupport
+05-Jun-2018 22:53:47.290 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Stateless Container)
+05-Jun-2018 22:53:47.301 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+05-Jun-2018 22:53:47.311 INFO [main] org.apache.openejb.core.managed.SimplePassivater.init Using directory E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\temp for stateful session passivation
+05-Jun-2018 22:53:47.319 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Singleton Container)
+05-Jun-2018 22:53:47.333 INFO [main] org.apache.openejb.assembler.classic.Assembler.createAppClassLoader Creating dedicated application classloader for sum-ear
+05-Jun-2018 22:53:47.333 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\apps\sum-ear
+05-Jun-2018 22:53:47.375 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jndiname.format={deploymentId}{interfaceType.annotationName}'
+05-Jun-2018 22:53:47.385 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=sum-ear/sum-ejb/SumBeanRemote) --> Ejb(deployment-id=sum-ear/sum-ejb/SumBean)
+05-Jun-2018 22:53:47.385 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/sum-ear/sum-ejb/SumBean!sum.ejb.Sum) --> Ejb(deployment-id=sum-ear/sum-ejb/SumBean)
+05-Jun-2018 22:53:47.387 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/sum-ear/sum-ejb/SumBean) --> Ejb(deployment-id=sum-ear/sum-ejb/SumBean)
+05-Jun-2018 22:53:47.434 INFO [main] org.apache.openejb.assembler.classic.Assembler.startEjbs Created Ejb(deployment-id=sum-ear/sum-ejb/SumBean, ejb-name=SumBean, container=Default Stateless Container)
+05-Jun-2018 22:53:47.472 INFO [main] org.apache.openejb.assembler.classic.Assembler.startEjbs Started Ejb(deployment-id=sum-ear/sum-ejb/SumBean, ejb-name=SumBean, container=Default Stateless Container)
+05-Jun-2018 22:53:47.477 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using default host: localhost
+05-Jun-2018 22:53:47.481 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\apps\sum-ear)
+05-Jun-2018 22:53:47.482 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: openejb
+05-Jun-2018 22:53:47.498 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+05-Jun-2018 22:53:47.498 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+05-Jun-2018 22:53:47.499 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/openejb/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+05-Jun-2018 22:53:47.499 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/openejb/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+05-Jun-2018 22:53:47.499 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+05-Jun-2018 22:53:47.500 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/openejb/openejb/openejb/Deployer!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+05-Jun-2018 22:53:47.502 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+05-Jun-2018 22:53:47.502 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/openejb/openejb/openejb/Deployer!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+05-Jun-2018 22:53:47.504 INFO [main] org.apache.openejb.assembler.classic.Assembler.startEjbs Created Ejb(deployment-id=MEJB, ejb-name=openejb/Deployer, container=Default Singleton Container)
+05-Jun-2018 22:53:47.506 INFO [main] org.apache.openejb.assembler.classic.Assembler.startEjbs Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/Deployer, container=Default Singleton Container)
+05-Jun-2018 22:53:47.507 INFO [main] org.apache.openejb.assembler.classic.Assembler.startEjbs Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Singleton Container)
+05-Jun-2018 22:53:47.508 INFO [main] org.apache.openejb.assembler.classic.Assembler.startEjbs Started Ejb(deployment-id=MEJB, ejb-name=openejb/Deployer, container=Default Singleton Container)
+05-Jun-2018 22:53:47.508 INFO [main] org.apache.openejb.assembler.classic.Assembler.startEjbs Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/Deployer, container=Default Singleton Container)
+05-Jun-2018 22:53:47.508 INFO [main] org.apache.openejb.assembler.classic.Assembler.startEjbs Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=Default Singleton Container)
+05-Jun-2018 22:53:47.510 INFO [main] org.apache.openejb.assembler.classic.Assembler.deployMBean Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+05-Jun-2018 22:53:47.510 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=openejb)
+05-Jun-2018 22:53:47.525 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.servicemanager.enabled=true'
+05-Jun-2018 22:53:47.547 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+05-Jun-2018 22:53:47.649 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+05-Jun-2018 22:53:47.700 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+05-Jun-2018 22:53:47.700 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+05-Jun-2018 22:53:47.701 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+05-Jun-2018 22:53:47.701 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+05-Jun-2018 22:53:47.701 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initialization processed in 2719 ms
+05-Jun-2018 22:53:47.711 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=comp/DefaultManagedExecutorService)
+05-Jun-2018 22:53:47.715 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=comp/DefaultManagedScheduledExecutorService)
+05-Jun-2018 22:53:47.717 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=comp/DefaultManagedThreadFactory)
+05-Jun-2018 22:53:47.734 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+05-Jun-2018 22:53:47.735 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+05-Jun-2018 22:53:47.736 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+05-Jun-2018 22:53:47.737 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet Engine: Apache Tomcat (TomEE)/8.5.20 (7.0.4)
+05-Jun-2018 22:53:47.749 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /ejbsum
+05-Jun-2018 22:53:47.852 INFO [localhost-startStop-1] org.apache.openejb.util.OptionsLog.info Using 'openejb.jndiname.format={deploymentId}{interfaceType.annotationName}'
+05-Jun-2018 22:53:47.868 INFO [localhost-startStop-1] org.apache.openejb.cdi.CdiBuilder.initSingleton Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@48aaecc3
+05-Jun-2018 22:53:47.934 INFO [localhost-startStop-1] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container is starting...
+05-Jun-2018 22:53:47.940 INFO [localhost-startStop-1] org.apache.webbeans.plugins.PluginLoader.startUp Adding OpenWebBeansPlugin : [CdiPlugin]
+05-Jun-2018 22:53:48.097 INFO [localhost-startStop-1] org.apache.webbeans.config.BeansDeployer.validateInjectionPoints All injection points were validated successfully.
+05-Jun-2018 22:53:48.099 INFO [localhost-startStop-1] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container has started, it took 165 ms.
+05-Jun-2018 22:53:48.252 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jun-2018 22:53:48.346 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\sum-ejb.war]
+05-Jun-2018 22:53:48.347 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /sum-ejb
+05-Jun-2018 22:53:48.415 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\sum-ejb
+05-Jun-2018 22:53:48.474 INFO [localhost-startStop-1] org.apache.openejb.config.InitEjbDeployments.deploy Auto-deploying ejb SumBean: EjbDeployment(deployment-id=sum-ejb/sum-ejb/SumBean)
+05-Jun-2018 22:53:48.475 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultManagedExecutorService' in bean sum-ejb/sum-ejb/SumBean to Resource(id=comp/DefaultManagedExecutorService)
+05-Jun-2018 22:53:48.475 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultManagedScheduledExecutorService' in bean sum-ejb/sum-ejb/SumBean to Resource(id=comp/DefaultManagedScheduledExecutorService)
+05-Jun-2018 22:53:48.475 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultManagedThreadFactory' in bean sum-ejb/sum-ejb/SumBean to Resource(id=comp/DefaultManagedThreadFactory)
+05-Jun-2018 22:53:48.476 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultContextService' in bean sum-ejb/sum-ejb/SumBean to Resource(id=comp/DefaultContextService)
+05-Jun-2018 22:53:48.476 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultJMSConnectionFactory' in bean sum-ejb/sum-ejb/SumBean to Resource(id=comp/DefaultJMSConnectionFactory)
+05-Jun-2018 22:53:48.476 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultManagedExecutorService' in bean sum-ejb/sum-ejb/sum-ejb.Comp197579294 to Resource(id=comp/DefaultManagedExecutorService)
+05-Jun-2018 22:53:48.476 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultManagedScheduledExecutorService' in bean sum-ejb/sum-ejb/sum-ejb.Comp197579294 to Resource(id=comp/DefaultManagedScheduledExecutorService)
+05-Jun-2018 22:53:48.476 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultManagedThreadFactory' in bean sum-ejb/sum-ejb/sum-ejb.Comp197579294 to Resource(id=comp/DefaultManagedThreadFactory)
+05-Jun-2018 22:53:48.477 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultContextService' in bean sum-ejb/sum-ejb/sum-ejb.Comp197579294 to Resource(id=comp/DefaultContextService)
+05-Jun-2018 22:53:48.477 INFO [localhost-startStop-1] org.apache.openejb.config.AutoConfig.processResourceEnvRef Auto-linking resource-env-ref 'java:comp/DefaultJMSConnectionFactory' in bean sum-ejb/sum-ejb/sum-ejb.Comp197579294 to Resource(id=comp/DefaultJMSConnectionFactory)
+05-Jun-2018 22:53:48.479 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\sum-ejb" loaded.
+05-Jun-2018 22:53:48.479 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\sum-ejb
+05-Jun-2018 22:53:48.486 INFO [localhost-startStop-1] org.apache.openejb.util.OptionsLog.info Using 'openejb.jndiname.format={deploymentId}{interfaceType.annotationName}'
+05-Jun-2018 22:53:48.487 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=sum-ejb/sum-ejb/SumBeanLocalBean) --> Ejb(deployment-id=sum-ejb/sum-ejb/SumBean)
+05-Jun-2018 22:53:48.487 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/sum-ejb/SumBean!sum.ejb.SumBean) --> Ejb(deployment-id=sum-ejb/sum-ejb/SumBean)
+05-Jun-2018 22:53:48.487 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/sum-ejb/SumBean) --> Ejb(deployment-id=sum-ejb/sum-ejb/SumBean)
+05-Jun-2018 22:53:48.491 INFO [localhost-startStop-1] org.apache.openejb.cdi.CdiBuilder.initSingleton Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@48aaecc3
+05-Jun-2018 22:53:48.494 INFO [localhost-startStop-1] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container is starting...
+05-Jun-2018 22:53:48.496 INFO [localhost-startStop-1] org.apache.webbeans.plugins.PluginLoader.startUp Adding OpenWebBeansPlugin : [CdiPlugin]
+05-Jun-2018 22:53:48.497 INFO [localhost-startStop-1] org.apache.openejb.cdi.CdiScanner.handleBda Using annotated mode for file:/E:/PD/Repo/progdistrib2018/JavaApp/apache-tomee-plume-7.0.4/webapps/sum-ejb/WEB-INF/classes/ looking all classes to find CDI beans, maybe think to add a beans.xml if not there or add the jar to exclusions.list
+05-Jun-2018 22:53:48.546 INFO [localhost-startStop-1] org.apache.webbeans.config.BeansDeployer.validateInjectionPoints All injection points were validated successfully.
+05-Jun-2018 22:53:48.546 INFO [localhost-startStop-1] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container has started, it took 52 ms.
+05-Jun-2018 22:53:48.548 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.startEjbs Created Ejb(deployment-id=sum-ejb/sum-ejb/SumBean, ejb-name=SumBean, container=Default Stateless Container)
+05-Jun-2018 22:53:48.551 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.startEjbs Started Ejb(deployment-id=sum-ejb/sum-ejb/SumBean, ejb-name=SumBean, container=Default Stateless Container)
+05-Jun-2018 22:53:48.551 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\sum-ejb)
+05-Jun-2018 22:53:48.587 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jun-2018 22:53:48.606 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\sum-ejb.war] has finished in [260] ms
+05-Jun-2018 22:53:48.607 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\docs]
+05-Jun-2018 22:53:48.608 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /docs
+05-Jun-2018 22:53:48.653 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\docs
+05-Jun-2018 22:53:48.657 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\docs" loaded.
+05-Jun-2018 22:53:48.657 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\docs
+05-Jun-2018 22:53:48.660 INFO [localhost-startStop-1] org.apache.openejb.util.OptionsLog.info Using 'openejb.jndiname.format={deploymentId}{interfaceType.annotationName}'
+05-Jun-2018 22:53:48.663 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\docs)
+05-Jun-2018 22:53:48.709 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jun-2018 22:53:48.729 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\docs] has finished in [121] ms
+05-Jun-2018 22:53:48.729 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\host-manager]
+05-Jun-2018 22:53:48.737 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /host-manager
+05-Jun-2018 22:53:48.783 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\host-manager
+05-Jun-2018 22:53:48.790 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\host-manager" loaded.
+05-Jun-2018 22:53:48.791 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\host-manager
+05-Jun-2018 22:53:48.794 INFO [localhost-startStop-1] org.apache.openejb.util.OptionsLog.info Using 'openejb.jndiname.format={deploymentId}{interfaceType.annotationName}'
+05-Jun-2018 22:53:48.797 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\host-manager\META-INF\context.xml
+05-Jun-2018 22:53:48.797 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\host-manager)
+05-Jun-2018 22:53:48.835 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jun-2018 22:53:48.851 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\host-manager] has finished in [122] ms
+05-Jun-2018 22:53:48.852 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\manager]
+05-Jun-2018 22:53:48.857 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /manager
+05-Jun-2018 22:53:48.889 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\manager
+05-Jun-2018 22:53:48.896 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\manager" loaded.
+05-Jun-2018 22:53:48.896 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\manager
+05-Jun-2018 22:53:48.899 INFO [localhost-startStop-1] org.apache.openejb.util.OptionsLog.info Using 'openejb.jndiname.format={deploymentId}{interfaceType.annotationName}'
+05-Jun-2018 22:53:48.902 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\manager\META-INF\context.xml
+05-Jun-2018 22:53:48.903 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\manager)
+05-Jun-2018 22:53:48.946 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jun-2018 22:53:48.960 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\manager] has finished in [108] ms
+05-Jun-2018 22:53:48.960 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application directory [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\ROOT]
+05-Jun-2018 22:53:48.960 INFO [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+05-Jun-2018 22:53:49.000 INFO [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\ROOT
+05-Jun-2018 22:53:49.004 INFO [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\ROOT" loaded.
+05-Jun-2018 22:53:49.004 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\ROOT
+05-Jun-2018 22:53:49.007 INFO [localhost-startStop-1] org.apache.openejb.util.OptionsLog.info Using 'openejb.jndiname.format={deploymentId}{interfaceType.annotationName}'
+05-Jun-2018 22:53:49.010 INFO [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\ROOT)
+05-Jun-2018 22:53:49.037 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jun-2018 22:53:49.047 INFO [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory [E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\ROOT] has finished in [87] ms
+05-Jun-2018 22:53:49.055 INFO [Catalina-startStop-1] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesRmiTargets] to [true] as the property does not exist.
+05-Jun-2018 22:53:49.062 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+05-Jun-2018 22:53:49.068 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2018 22:53:49.070 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in 1368 ms
+05-Jun-2018 22:55:36.739 INFO [Thread-29] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+05-Jun-2018 22:55:36.844 INFO [Thread-29] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2018 22:55:36.945 INFO [Thread-29] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+05-Jun-2018 22:55:36.960 INFO [localhost-startStop-2] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\sum-ejb
+05-Jun-2018 22:55:37.124 INFO [localhost-startStop-2] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\docs
+05-Jun-2018 22:55:37.223 INFO [localhost-startStop-2] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\host-manager
+05-Jun-2018 22:55:37.280 INFO [localhost-startStop-2] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\manager
+05-Jun-2018 22:55:37.351 INFO [localhost-startStop-2] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\webapps\ROOT
+05-Jun-2018 22:55:37.398 INFO [Thread-29] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+05-Jun-2018 22:55:37.400 INFO [Thread-29] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Jun-2018 22:55:37.401 INFO [Thread-29] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+05-Jun-2018 22:55:37.408 INFO [Thread-29] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: openejb
+05-Jun-2018 22:55:37.408 SEVERE [Thread-29] org.apache.openejb.core.singleton.SingletonInstanceManager.undeploy Unable to unregister MBean openejb.management:J2EEServer=openejb,J2EEApplication=<empty>,EJBModule=openejb,SingletonSessionBean=openejb/Deployer,name=openejb/Deployer,j2eeType=Invocations
+05-Jun-2018 22:55:37.409 SEVERE [Thread-29] org.apache.openejb.core.singleton.SingletonInstanceManager.undeploy Unable to unregister MBean openejb.management:J2EEServer=openejb,J2EEApplication=<empty>,EJBModule=openejb,SingletonSessionBean=openejb/Deployer,name=openejb/Deployer,j2eeType=Invocations
+05-Jun-2018 22:55:37.412 INFO [Thread-29] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: E:\PD\Repo\progdistrib2018\JavaApp\apache-tomee-plume-7.0.4\apps\sum-ear
+05-Jun-2018 22:55:37.701 INFO [Thread-29] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: Default Unmanaged JDBC Database
+05-Jun-2018 22:55:37.710 INFO [Thread-29] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Stopping ResourceAdapter: Default JMS Resource Adapter
+05-Jun-2018 22:55:37.710 INFO [Thread-29] org.apache.openejb.resource.activemq.ActiveMQResourceAdapter.stop Stopping ActiveMQ
+05-Jun-2018 22:55:37.711 INFO [ActiveMQResourceAdapter stop] org.apache.activemq.broker.BrokerService.stop Apache ActiveMQ 5.14.5 (localhost, ID:DESKTOP-GQDSVS3-53527-1528228427114-0:1) is shutting down
+05-Jun-2018 22:55:37.711 INFO [ActiveMQResourceAdapter stop] org.apache.activemq.broker.TransportConnector.stop Connector tcp://127.0.0.1:61616 stopped
+05-Jun-2018 22:55:37.716 INFO [ActiveMQResourceAdapter stop] org.apache.activemq.broker.BrokerService.stop Apache ActiveMQ 5.14.5 (localhost, ID:DESKTOP-GQDSVS3-53527-1528228427114-0:1) uptime 1 minute
+05-Jun-2018 22:55:37.717 INFO [ActiveMQResourceAdapter stop] org.apache.activemq.broker.BrokerService.stop Apache ActiveMQ 5.14.5 (localhost, ID:DESKTOP-GQDSVS3-53527-1528228427114-0:1) is shutdown
+05-Jun-2018 22:55:37.717 INFO [105] org.apache.openejb.resource.activemq.ActiveMQResourceAdapter.stopImpl Stopped ActiveMQ broker
+05-Jun-2018 22:55:37.718 INFO [Thread-29] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+05-Jun-2018 22:55:37.719 INFO [Thread-29] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["ajp-nio-8009"]

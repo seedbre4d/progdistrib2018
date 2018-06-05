@@ -1,7 +1,7 @@
 package sum.rmi.i;
 
-public interface ISum extends java.rmi.RemoteException
+public interface ISum extends java.rmi.Remote
 {
 
-    long sum(long a) throws java.rmi.RemoteException;
+    Integer sum(int a) throws java.rmi.RemoteException;
 }

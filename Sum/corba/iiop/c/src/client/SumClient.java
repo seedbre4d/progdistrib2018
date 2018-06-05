@@ -19,7 +19,7 @@ public class SumClient {
 
     Scanner scanner = new Scanner(System.in);
     System.out.println("n :");
-    long n = Long.parseLong(scanner.next());
+    Integer n = Integer.parseInt(scanner.next());
     try {
       System.setProperty("java.naming.factory.initial", "com.sun.jndi.cosnaming.CNCtxFactory");
       System.setProperty("java.naming.provider.url", "iiop://" + host + ":" + port);
@@ -33,7 +33,7 @@ public class SumClient {
       // STEP 2: Narrow the object reference to the concrete type and
       // invoke the method.
       ISum obj = (ISum) PortableRemoteObject.narrow(objref, ISum.class);
-      long x = obj.sum(n);
+      Integer x = obj.sum(n);
       System.out.println("Suma:" + x);
 
     } catch (Exception e) {

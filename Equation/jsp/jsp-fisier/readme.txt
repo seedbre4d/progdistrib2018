@@ -1,1 +1,0 @@
-apelul la jsp se face prin : http://localhost:8080/equationfile/equationFile.jsp

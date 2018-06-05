@@ -19,7 +19,8 @@ public class SumClient {
       port = Integer.parseInt(args[1]);
     Scanner scanner = new Scanner(System.in);
     System.out.println("n :");
-    long n = Long.parseLong(scanner.next());
+    int n = scanner.nextInt();
+    scanner.close();
     try {
       String sPort = Integer.valueOf(port).toString();
       System.setProperty(Context.INITIAL_CONTEXT_FACTORY, "com.sun.jndi.rmi.registry.RegistryContextFactory");

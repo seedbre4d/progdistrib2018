@@ -10,8 +10,8 @@ import javax.naming.InitialContext;
 
 public class SumImpl implements ISum {
 
-    public String solve(long a) {
-        Integer sum = IntStream.range(1, (int) a).filter(i -> i % 3 == 0 || i % 5 == 0).sum();
+    public String solve(int n) {
+        Integer sum = IntStream.range(1, n).filter(i -> i % 3 == 0 || i % 5 == 0).sum();
         StringBuilder sb = new StringBuilder();
         sb.append(sum);
         return sb.toString();

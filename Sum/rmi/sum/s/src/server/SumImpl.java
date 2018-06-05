@@ -5,31 +5,15 @@ import java.rmi.server.UnicastRemoteObject;
 import java.rmi.registry.Registry;
 import java.rmi.registry.LocateRegistry;
 import javax.naming.Context;
+import java.util.stream.IntStream;
 import javax.naming.InitialContext;
 
 public class SumImpl implements ISum {
 
     public String solve(long a) {
-        String sir = "Sirul este:";
-        StringBuilder sb = new StringBuilder(String.valueOf(sir));
-        sb.append(a);
-        sb.append(",");
-        int count = 0;
-        while (a != 1) {
-            if (a % 2 == 0) {
-                a /= 2;
-                sb.append(a);
-                sb.append(",");
-            } else {
-                a = 3 * a + 1;
-                sb.append(a);
-                sb.append(",");
-                count++;
-            }
-        }
-        sb.append(" [nr pasi =");
-        sb.append(count);
-        sb.append("]");
+        Integer sum = IntStream.range(1, (int) a).filter(i -> i % 3 == 0 || i % 5 == 0).sum();
+        StringBuilder sb = new StringBuilder();
+        sb.append(sum);
         return sb.toString();
     }
 

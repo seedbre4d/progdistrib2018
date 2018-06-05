@@ -4,18 +4,18 @@ RMI Modular
 
 CORBA Modular 
 
-
 JMS slab cuplat 
 
-Servlet Tomcat 
+Servlet (Tomcat trebuie instalat)
 
-JSP 
+JSP (Tomcat trebuie instalat)
 
     - file  
     - web
 
-EJB TomEE 
+EJB (TomEE trebuie instalat) 
 
     - webclient
     - rmi-ioop 
- # progdistrib2018
+
+# progdistrib2018

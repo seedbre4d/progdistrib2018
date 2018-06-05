@@ -435,3 +435,24 @@ java.io.IOException: failed to delete E:\PD\Repo\progdistrib2018\JavaApp\Message
 |#]
 
 
+[#|2018-06-05T21:11:56.242+0300|INFO|5.1|imq.log.Logger|_ThreadID=13;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination A [Topic] inactive for 120 seconds
+|#]
+
+
+[#|2018-06-05T21:11:56.242+0300|INFO|5.1|imq.log.Logger|_ThreadID=13;_ThreadName=MQTimer-Thread;|[B1517]: Destroying destination A [Topic] 
+|#]
+
+
+[#|2018-06-05T21:11:56.242+0300|INFO|5.1|imq.log.Logger|_ThreadID=13;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination A [Topic]
+|#]
+
+
+[#|2018-06-05T21:11:56.242+0300|SEVERE|5.1|imq.log.Logger|_ThreadID=13;_ThreadName=MQTimer-Thread;|ERROR [B4149]: Resetting messages failed; failed to remove all files in E:\PD\Repo\progdistrib2018\JavaApp\MessageQueue5.1\var\mq\instances\imqbroker\fs370\message\TA.:
+java.io.IOException: failed to delete E:\PD\Repo\progdistrib2018\JavaApp\MessageQueue5.1\var\mq\instances\imqbroker\fs370\message\TA\vrfile
+|#]
+
+
+[#|2018-06-05T21:11:56.242+0300|INFO|5.1|imq.log.Logger|_ThreadID=13;_ThreadName=MQTimer-Thread;|[B1159]: Destination A [Topic] has been destroyed
+|#]
+
+

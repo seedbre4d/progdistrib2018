@@ -1,0 +1,24 @@
+22-Apr-2018 14:29:45.219 INFO [Thread-21] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+22-Apr-2018 14:29:45.345 INFO [Thread-21] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Apr-2018 14:29:45.497 INFO [Thread-21] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+22-Apr-2018 14:29:45.525 INFO [localhost-startStop-2] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\Alex\Desktop\Scoala\JavaApp\apache-tomee-plume-7.0.4\webapps\docs
+22-Apr-2018 14:29:45.761 INFO [localhost-startStop-2] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\Alex\Desktop\Scoala\JavaApp\apache-tomee-plume-7.0.4\webapps\host-manager
+22-Apr-2018 14:29:46.064 INFO [localhost-startStop-2] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\Alex\Desktop\Scoala\JavaApp\apache-tomee-plume-7.0.4\webapps\manager
+22-Apr-2018 14:29:46.194 INFO [localhost-startStop-2] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\Alex\Desktop\Scoala\JavaApp\apache-tomee-plume-7.0.4\webapps\ROOT
+22-Apr-2018 14:29:46.283 INFO [Thread-21] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+22-Apr-2018 14:29:46.290 INFO [Thread-21] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Apr-2018 14:29:46.294 INFO [Thread-21] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+22-Apr-2018 14:29:46.316 INFO [Thread-21] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\Alex\Desktop\Scoala\JavaApp\apache-tomee-plume-7.0.4\apps\cmmdc-ear
+22-Apr-2018 14:29:46.765 INFO [Thread-21] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: openejb
+22-Apr-2018 14:29:46.772 SEVERE [Thread-21] org.apache.openejb.core.singleton.SingletonInstanceManager.undeploy Unable to unregister MBean openejb.management:J2EEServer=openejb,J2EEApplication=<empty>,EJBModule=openejb,SingletonSessionBean=openejb/Deployer,name=openejb/Deployer,j2eeType=Invocations
+22-Apr-2018 14:29:46.772 SEVERE [Thread-21] org.apache.openejb.core.singleton.SingletonInstanceManager.undeploy Unable to unregister MBean openejb.management:J2EEServer=openejb,J2EEApplication=<empty>,EJBModule=openejb,SingletonSessionBean=openejb/Deployer,name=openejb/Deployer,j2eeType=Invocations
+22-Apr-2018 14:29:46.799 INFO [Thread-21] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: Default Unmanaged JDBC Database
+22-Apr-2018 14:29:46.811 INFO [Thread-21] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Stopping ResourceAdapter: Default JMS Resource Adapter
+22-Apr-2018 14:29:46.811 INFO [Thread-21] org.apache.openejb.resource.activemq.ActiveMQResourceAdapter.stop Stopping ActiveMQ
+22-Apr-2018 14:29:46.813 INFO [ActiveMQResourceAdapter stop] org.apache.activemq.broker.BrokerService.stop Apache ActiveMQ 5.14.5 (localhost, ID:DESKTOP-K0ETU0I-62369-1524310460093-0:1) is shutting down
+22-Apr-2018 14:29:46.817 INFO [ActiveMQResourceAdapter stop] org.apache.activemq.broker.TransportConnector.stop Connector tcp://www.r2rdownload.com:61616 stopped
+22-Apr-2018 14:29:46.834 INFO [ActiveMQResourceAdapter stop] org.apache.activemq.broker.BrokerService.stop Apache ActiveMQ 5.14.5 (localhost, ID:DESKTOP-K0ETU0I-62369-1524310460093-0:1) uptime 23 hours 55 minutes
+22-Apr-2018 14:29:46.834 INFO [93] org.apache.activemq.broker.BrokerService.stop Apache ActiveMQ 5.14.5 (localhost, ID:DESKTOP-K0ETU0I-62369-1524310460093-0:1) is shutdown
+22-Apr-2018 14:29:46.836 INFO [93] org.apache.openejb.resource.activemq.ActiveMQResourceAdapter.stopImpl Stopped ActiveMQ broker
+22-Apr-2018 14:29:46.849 INFO [Thread-21] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+22-Apr-2018 14:29:46.853 INFO [88] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["ajp-nio-8009"]

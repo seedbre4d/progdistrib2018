@@ -1,0 +1,135 @@
+<!--
+
+    DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+
+    Copyright (c) 2010 Oracle and/or its affiliates. All rights reserved.
+
+    The contents of this file are subject to the terms of either the GNU
+    General Public License Version 2 only ("GPL") or the Common Development
+    and Distribution License("CDDL") (collectively, the "License").  You
+    may not use this file except in compliance with the License.  You can
+    obtain a copy of the License at
+    https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html
+    or packager/legal/LICENSE.txt.  See the License for the specific
+    language governing permissions and limitations under the License.
+
+    When distributing the software, include this License Header Notice in each
+    file and include the License file at glassfish/bootstrap/legal/LICENSE.txt.
+
+    GPL Classpath Exception:
+    Oracle designates this particular file as subject to the "Classpath"
+    exception as provided by Oracle in the GPL Version 2 section of the License
+    file that accompanied this code.
+
+    Modifications:
+    If applicable, add the following below the License Header, with the fields
+    enclosed by brackets [] replaced by your own identifying information:
+    "Portions Copyright [year] [name of copyright owner]"
+
+    Contributor(s):
+    If you wish your version of this file to be governed by only the CDDL or
+    only the GPL Version 2, indicate your decision by adding "[Contributor]
+    elects to include this software in this distribution under the [CDDL or GPL
+    Version 2] license."  If you don't indicate a single choice of license, a
+    recipient has the option to distribute your version of this file under
+    either the CDDL, the GPL Version 2 or to extend the choice of license to
+    its licensees as provided above.  However, if you add GPL Version 2 code
+    and therefore, elected the GPL Version 2 license, then the option applies
+    only if the new code is made subject to such option by the copyright
+    holder.
+
+-->
+
+<project name="pkg" basedir=".">
+
+    <description>
+         This script is used to build the IPS packages.
+    </description>
+
+    <dirname property="pkg.basedir" file="${ant.file.pkg}" />
+    
+    <target name="complete-pkg">
+        <java dir="${pkg.basedir}\..\..\" jar="${pkg.basedir}/pkg-bootstrap.jar" fork="true" 
+            maxmemory="128m" />
+    </target>
+    <!--
+      The reason for calling the Platform class using java task is , we dont want to make 
+      it a task by defining it using the taskdef or typedef. Since it will be a one time call
+      to find out the current platform this class doesn't extend the Task class.
+      
+      The reason for not calculating the platform using an ant target as it is in done in 
+      UpdateTool build is , we want to reduce the number of property used so that there
+      user doesn't have to keep count of the property names which he shouldn't use in his 
+      build file.   
+    -->
+    <java classname="com.sun.pkg.tools.ant.Platform" outputproperty="pkg.platform"
+        classpath="${pkg.basedir}/pkg-ant-tasks.jar" />
+    
+    <typedef name="makeimage" classname="com.sun.pkg.tools.ant.Makeimage" classpath="${pkg.basedir}/pkg-ant-tasks.jar" />
+    <typedef name="copypkgs" classname="com.sun.pkg.tools.ant.Copypkgs" classpath="${pkg.basedir}/pkg-ant-tasks.jar" />
+    <typedef name="makepkgs" classname="com.sun.pkg.tools.ant.Makepkgs" classpath="${pkg.basedir}/pkg-ant-tasks.jar" />
+    <typedef name="makezip" classname="com.sun.pkg.tools.ant.Makezip" classpath="${pkg.basedir}/pkg-ant-tasks.jar" />
+      
+    
+    
+<!--
+The following 2 macrodef's will be used in future. It will replace the makepkgs 
+macrodef , which will make the tools more aligned towards IPS and also will 
+remove the use of *_proto.py files.
+ 
+<macrodef name="makemanifest">
+        <attribute name="mode" default="0755" />
+        <attribute name="owner" default="nobody" />
+        <attribute name="group" default="bin" />
+        <attribute name="manifestfile" default="stdout" />
+        <attribute name="basedir" />
+        <element name="includedir" />
+        <sequential>
+            <typedef name="replace" classname="Replace" classpath="${pkg.basedir}" />
+            <replace message="${includedir}" />
+            <exec executable="${pkg.python.cmd}" failonerror="true">
+                <env key="PYTHONPATH" path="" />
+                <env key="PYTHONHOME" path="${python.dist.home}" />
+                <env key="DYLD_LIBRARY_PATH" path="${python.dist.home}" />
+                <env key="LD_LIBRARY_PATH" path="${python.dist.home}/lib" />
+                <arg value="${pkg.basedir}/makemanifest.py" />
+                <arg value="-m" />
+                <arg value="@{mode}" />
+                <arg value="-o" />
+                <arg value="@{owner}" />
+                <arg value="-g" />
+                <arg value="@{group}" />
+                <arg value="-f" />
+                <arg value="@{manifestfile}" />
+                <arg value="-d" />
+                <arg value="@{basedir}" />
+                <includedir />
+            </exec>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="publishpkg">
+        <attribute name="fmri" />
+        <attribute name="repourl" />
+        <attribute name="basedir" />
+        <element name="manifest" />
+        <sequential>
+            <exec executable="${pkg.python.cmd}" failonerror="true">
+                <env key="PYTHONPATH" path=""/>
+                <env key="PYTHONHOME" path="${python.dist.home}"/>
+                <env key="DYLD_LIBRARY_PATH" path="${python.dist.home}"/>
+                <env key="LD_LIBRARY_PATH" path="${python.dist.home}/lib"/>
+                <arg value="publishpkg.py"/>
+                <arg value="-p"/>
+                <arg value="@{fmri}"/>
+                <arg value="-s"/>
+                <arg value="@{repourl}"/>
+                <arg value="-b"/>
+                <arg value="@{basedir}"/>
+                <manifest />
+            </exec>
+        </sequential>
+    </macrodef>
+-->
+
+</project>

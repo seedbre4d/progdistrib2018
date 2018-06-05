@@ -1,4 +1,5 @@
-CORBA-RMI/IIOP(Internet Inter Orb Protocol)
+CORBA-RMI/IIOP(Internet Inter Orb Protocol) - JAVA 9 ONLY
+
 1. Copiem MyAnt.bat in folderele i, s si c
 2. Configuram fisierele MyAnt.bat
 3. Din "i" executam in cmd MyAnt Compile

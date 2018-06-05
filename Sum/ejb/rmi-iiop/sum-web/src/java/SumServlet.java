@@ -22,7 +22,7 @@ public class SumServlet extends HttpServlet{
   public void doGet(HttpServletRequest req,HttpServletResponse res)
       throws ServletException,IOException{
     String sn=req.getParameter("n");     
-    long n=Long.parseLong(sn);  
+    int n=Integer.parseInt(sn);  
     String x=cb.sum(n);
     PrintWriter out=res.getWriter();
    

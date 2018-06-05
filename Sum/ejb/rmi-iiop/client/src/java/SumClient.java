@@ -27,7 +27,7 @@ public class SumClient {
         Scanner scanner = new Scanner(System.in);
         ;
         System.out.println("n=");
-        long n = scanner.nextLong();
+        int n = scanner.nextInt();
         String x = cb.sum(n);
         System.out.println(x);
 

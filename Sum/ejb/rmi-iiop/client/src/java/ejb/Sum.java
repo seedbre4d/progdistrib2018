@@ -4,5 +4,5 @@ import javax.ejb.Remote;
 
 @Remote
 public interface Sum{
-    public String sum(long num);
+    public String sum(int num);
 }

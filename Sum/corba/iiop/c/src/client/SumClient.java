@@ -29,7 +29,7 @@ public class SumClient {
       // using JNDI call.
       Object objref = ctx.lookup("SumService");
 
-      System.out.println("Client: Obtained a ref. to server.");
+      System.out.println("Obtained a ref. to server.");
       // STEP 2: Narrow the object reference to the concrete type and
       // invoke the method.
       ISum obj = (ISum) PortableRemoteObject.narrow(objref, ISum.class);

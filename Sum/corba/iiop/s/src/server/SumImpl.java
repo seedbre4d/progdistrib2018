@@ -14,9 +14,9 @@ public class SumImpl extends PortableRemoteObject implements ISum {
     }
 
     public Integer sum(int n) {
-        Integer sum = IntStream.range(1, n) // create range
-                  .filter(i -> i % 3 == 0 || i % 5 == 0) // filter out
-                  .sum(); // output: 233168
+        Integer sum = IntStream.range(1, n)
+                  .filter(i -> i % 3 == 0 || i % 5 == 0)
+                  .sum();
         StringBuilder sb = new StringBuilder();
         return sum;
     }
